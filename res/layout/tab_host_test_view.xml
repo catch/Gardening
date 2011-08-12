@@ -1,0 +1,16 @@
+<net.courage.tab.view.AnimationTabHost
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/default_bg">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<FrameLayout android:gravity="center" android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1.0" />
+
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0.0" />
+	</LinearLayout>
+</net.courage.tab.view.AnimationTabHost>

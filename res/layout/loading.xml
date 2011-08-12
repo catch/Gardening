@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:id="@+id/relativeLayout">
+
+
+	<EditText android:text="" android:id="@+id/loading_zipcode"
+		android:hint="@string/loading_zipcode_hint" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true" />
+
+	<Button android:text="@string/loading_commit" android:id="@+id/loading_commit"
+		android:onClick="commit"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/loading_zipcode"
+		android:layout_centerVertical="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

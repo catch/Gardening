@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView android:text="header" android:id="@+id/browse_header"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:visibility="gone"></TextView>
+
+	<LinearLayout android:layout_height="96dp"
+		android:layout_width="match_parent">
+		<ImageView android:layout_height="96dp"
+			android:layout_width="96dp" android:id="@+id/browse_plant_image"
+			android:src="@drawable/icon"></ImageView>
+
+		<LinearLayout android:layout_height="96dp"
+			android:layout_width="wrap_content" android:orientation="vertical"
+			android:layout_weight="2.0">
+			<TextView android:text="Name" android:id="@+id/browse_title"
+				android:gravity="bottom" android:layout_width="match_parent"
+				android:layout_height="30dp"></TextView>
+			<TextView android:text="Common Name" android:id="@+id/browse_comnon_name"
+				android:layout_width="match_parent" android:gravity="center_vertical"
+				android:layout_height="18dp"></TextView>
+			<ImageView android:layout_height="48dp"
+				android:layout_width="wrap_content" android:id="@+id/browse_favorites"
+				android:src="@drawable/favorite_default"></ImageView>
+		</LinearLayout>
+
+		<LinearLayout android:layout_height="96dp"
+			android:layout_width="wrap_content" android:orientation="vertical"
+			android:layout_weight="1.0" android:visibility="gone">
+
+			<LinearLayout android:layout_height="24dp"
+				android:layout_marginRight="5dp" android:layout_width="match_parent">
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+			</LinearLayout>
+
+
+			<LinearLayout android:layout_height="24dp"
+				android:layout_marginRight="5dp" android:layout_width="match_parent">
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+			</LinearLayout>
+
+			<LinearLayout android:layout_height="24dp"
+				android:layout_width="wrap_content" android:layout_weight="1.0"
+				android:layout_gravity="right" android:layout_marginRight="5dp">
+				<TextView android:text="TextView" android:id="@+id/browse_tv"
+					android:layout_height="24dp" android:layout_width="wrap_content"
+					android:visibility="visible"></TextView>
+			</LinearLayout>
+
+			<LinearLayout android:layout_height="24dp"
+				android:layout_marginRight="5dp" android:layout_width="match_parent"
+				android:layout_weight="1.0">
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+				<ImageView android:layout_height="match_parent"
+					android:layout_weight="1.0" android:layout_width="wrap_content"
+					android:id="@+id/imageView1" android:src="@drawable/icon"></ImageView>
+			</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
